@@ -1,0 +1,7 @@
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\bin\Debug\FindAndReplaceInFile.exe.config
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\bin\Debug\FindAndReplaceInFile.exe
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\bin\Debug\FindAndReplaceInFile.pdb
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\obj\Debug\FindAndReplaceInFile.csprojResolveAssemblyReference.cache
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\obj\Debug\FindAndReplaceInFile.csproj.CoreCompileInputs.cache
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\obj\Debug\FindAndReplaceInFile.exe
+C:\Users\Ronan\source\repos\FindAndReplaceInFile\FindAndReplaceInFile\obj\Debug\FindAndReplaceInFile.pdb
