@@ -119,6 +119,79 @@ namespace FindAndReplaceInFile
             batch5 = batch5.Replace("parent.label", "@parent.label");
             batch6 = batch6.Replace("parent.label", "@parent.label");
 
+            batch1 = batch1.Replace("criteria.id", "@criteria.id");
+            batch2 = batch2.Replace("criteria.id", "@criteria.id");
+            batch3 = batch3.Replace("criteria.id", "@criteria.id");
+            batch4 = batch4.Replace("criteria.id", "@criteria.id");
+            batch5 = batch5.Replace("criteria.id", "@criteria.id");
+            batch6 = batch6.Replace("criteria.id", "@criteria.id");
+
+            batch1 = batch1.Replace("eft.id", "@eft.id");
+            batch2 = batch2.Replace("eft.id", "@eft.id");
+            batch3 = batch3.Replace("eft.id", "@eft.id");
+            batch4 = batch4.Replace("eft.id", "@eft.id");
+            batch5 = batch5.Replace("eft.id", "@eft.id");
+            batch6 = batch6.Replace("eft.id", "@eft.id");
+
+            batch1 = batch1.Replace("eft.name", "@eft.name");
+            batch2 = batch2.Replace("eft.name", "@eft.name");
+            batch3 = batch3.Replace("eft.name", "@eft.name");
+            batch4 = batch4.Replace("eft.name", "@eft.name");
+            batch5 = batch5.Replace("eft.name", "@eft.name");
+            batch6 = batch6.Replace("eft.name", "@eft.name");
+
+            batch1 = batch1.Replace("paymentMethod.id", "@paymentMethod.id");
+            batch2 = batch2.Replace("paymentMethod.id", "@paymentMethod.id");
+            batch3 = batch3.Replace("paymentMethod.id", "@paymentMethod.id");
+            batch4 = batch4.Replace("paymentMethod.id", "@paymentMethod.id");
+            batch5 = batch5.Replace("paymentMethod.id", "@paymentMethod.id");
+            batch6 = batch6.Replace("paymentMethod.id", "@paymentMethod.id");
+
+            batch1 = batch1.Replace("paymentMethod.name", "@paymentMethod.name");
+            batch2 = batch2.Replace("paymentMethod.name", "@paymentMethod.name");
+            batch3 = batch3.Replace("paymentMethod.name", "@paymentMethod.name");
+            batch4 = batch4.Replace("paymentMethod.name", "@paymentMethod.name");
+            batch5 = batch5.Replace("paymentMethod.name", "@paymentMethod.name");
+            batch6 = batch6.Replace("paymentMethod.name", "@paymentMethod.name");
+
+            batch1 = batch1.Replace("employmentCategory.id", "@employmentCategory.id");
+            batch2 = batch2.Replace("employmentCategory.id", "@employmentCategory.id");
+            batch3 = batch3.Replace("employmentCategory.id", "@employmentCategory.id");
+            batch4 = batch4.Replace("employmentCategory.id", "@employmentCategory.id");
+            batch5 = batch5.Replace("employmentCategory.id", "@employmentCategory.id");
+            batch6 = batch6.Replace("employmentCategory.id", "@employmentCategory.id");
+
+            batch1 = batch1.Replace("assignmentTier.id", "@assignmentTier.id");
+            batch2 = batch2.Replace("assignmentTier.id", "@assignmentTier.id");
+            batch3 = batch3.Replace("assignmentTier.id", "@assignmentTier.id");
+            batch4 = batch4.Replace("assignmentTier.id", "@assignmentTier.id");
+            batch5 = batch5.Replace("assignmentTier.id", "@assignmentTier.id");
+            batch6 = batch6.Replace("assignmentTier.id", "@assignmentTier.id");
+
+            batch1 = batch1.Replace("currencyCode.id", "@currencyCode.id");
+            batch2 = batch2.Replace("currencyCode.id", "@currencyCode.id");
+            batch3 = batch3.Replace("currencyCode.id", "@currencyCode.id");
+            batch4 = batch4.Replace("currencyCode.id", "@currencyCode.id");
+            batch5 = batch5.Replace("currencyCode.id", "@currencyCode.id");
+            batch6 = batch6.Replace("currencyCode.id", "@currencyCode.id");
+
+            batch1 = batch1.Replace("type.nameKey", "@type.nameKey");
+            batch2 = batch2.Replace("type.nameKey", "@type.nameKey");
+            batch3 = batch3.Replace("type.nameKey", "@type.nameKey");
+            batch4 = batch4.Replace("type.nameKey", "@type.nameKey");
+            batch5 = batch5.Replace("type.nameKey", "@type.nameKey");
+            batch6 = batch6.Replace("type.nameKey", "@type.nameKey");
+
+            batch1 = batch1.Replace("values", "value");
+            batch2 = batch2.Replace("values", "value");
+            batch3 = batch3.Replace("values", "value");
+            batch4 = batch4.Replace("values", "value");
+            batch5 = batch5.Replace("values", "value");
+            batch6 = batch6.Replace("values", "value");
+
+
+
+
             File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts1.json", batch1);
             File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts2.json", batch2);
             File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts3.json", batch3);
