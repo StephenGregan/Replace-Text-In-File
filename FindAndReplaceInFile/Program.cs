@@ -11,14 +11,12 @@ namespace FindAndReplaceInFile
     {
         static void Main(string[] args)
         {
-
-            String batch1 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts1.json");
-            String batch2 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts2.json");
-            String batch3 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts3.json");
-            String batch4 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts4.json");
-            String batch5 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts5.json");
-            String batch6 = File.ReadAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts6.json");
-
+            String batch1 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts1.json");
+            String batch2 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts2.json");
+            String batch3 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts3.json");
+            String batch4 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts4.json");
+            String batch5 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts5.json");
+            String batch6 = File.ReadAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts6.json");
 
             batch1 = batch1.Replace("company.id", "@company.id");
             batch2 = batch2.Replace("company.id", "@company.id");
@@ -40,7 +38,6 @@ namespace FindAndReplaceInFile
             batch2 = batch4.Replace("businessUnit.id", "@businessUnit.id");
             batch1 = batch5.Replace("businessUnit.id", "@businessUnit.id");
             batch2 = batch6.Replace("businessUnit.id", "@businessUnit.id");
-
 
             batch1 = batch1.Replace("contact.id", "@contact.id");
             batch2 = batch2.Replace("contact.id", "@contact.id");
@@ -82,14 +79,7 @@ namespace FindAndReplaceInFile
             batch3 = batch3.Replace("type.id", "@type.id");
             batch4 = batch4.Replace("type.id", "@type.id");
             batch5 = batch5.Replace("type.id", "@type.id");
-            batch6 = batch6.Replace("type.id", "@type.id");
-
-            batch1 = batch1.Replace("parent.id", "@parent.id");
-            batch2 = batch2.Replace("parent.id", "@parent.id");
-            batch3 = batch3.Replace("parent.id", "@parent.id");
-            batch4 = batch4.Replace("parent.id", "@parent.id");
-            batch5 = batch5.Replace("parent.id", "@parent.id");
-            batch6 = batch6.Replace("parent.id", "@parent.id");
+            batch6 = batch6.Replace("type.id", "@type.id");           
 
             batch1 = batch1.Replace("region.id", "@region.id");
             batch2 = batch2.Replace("region.id", "@region.id");
@@ -105,12 +95,12 @@ namespace FindAndReplaceInFile
             batch5 = batch5.Replace("billingRegion.id", "@billingRegion.id");
             batch6 = batch6.Replace("billingRegion.id", "@billingRegion.id");
 
-            batch1 = batch1.Replace("client.id", "@client.id");
-            batch2 = batch2.Replace("client.id", "@client.id");
-            batch3 = batch3.Replace("client.id", "@client.id");
-            batch4 = batch4.Replace("client.id", "@client.id");
-            batch5 = batch5.Replace("client.id", "@client.id");
-            batch6 = batch6.Replace("client.id", "@client.id");
+            batch1 = batch1.Replace("parent.id", "@parent.id");
+            batch2 = batch2.Replace("parent.id", "@parent.id");
+            batch3 = batch3.Replace("parent.id", "@parent.id");
+            batch4 = batch4.Replace("parent.id", "@parent.id");
+            batch5 = batch5.Replace("parent.id", "@parent.id");
+            batch6 = batch6.Replace("parent.id", "@parent.id");
 
             batch1 = batch1.Replace("parent.label", "@parent.label");
             batch2 = batch2.Replace("parent.label", "@parent.label");
@@ -175,33 +165,12 @@ namespace FindAndReplaceInFile
             batch5 = batch5.Replace("currencyCode.id", "@currencyCode.id");
             batch6 = batch6.Replace("currencyCode.id", "@currencyCode.id");
 
-            batch1 = batch1.Replace("type.nameKey", "@type.nameKey");
-            batch2 = batch2.Replace("type.nameKey", "@type.nameKey");
-            batch3 = batch3.Replace("type.nameKey", "@type.nameKey");
-            batch4 = batch4.Replace("type.nameKey", "@type.nameKey");
-            batch5 = batch5.Replace("type.nameKey", "@type.nameKey");
-            batch6 = batch6.Replace("type.nameKey", "@type.nameKey");
-
-            batch1 = batch1.Replace("values", "value");
-            batch2 = batch2.Replace("values", "value");
-            batch3 = batch3.Replace("values", "value");
-            batch4 = batch4.Replace("values", "value");
-            batch5 = batch5.Replace("values", "value");
-            batch6 = batch6.Replace("values", "value");
-
-
-
-
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts1.json", batch1);
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts2.json", batch2);
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts3.json", batch3);
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts4.json", batch4);
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts5.json", batch5);
-            File.WriteAllText(@"C:\Users\Ronan\source\repos\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data\allcontacts6.json", batch6);
-
-
-
-
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts1.json", batch1);
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts2.json", batch2);
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts3.json", batch3);
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts4.json", batch4);
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts5.json", batch5);
+            File.WriteAllText(@"C:\Users\Ronan\source\repos\GeAllContactsUpdatedVersion\GeAllContactsUpdatedVersion\allcontacts6.json", batch6);
         }
     }
 }
